@@ -1,34 +1,34 @@
+Node Ubold - Vertical
+=======================
 
-# Ubold - The most complete web ui kit and dashboard template
+A seed project in node, express, mongo, etc. This project is bootstraped using [hackathon-starter](https://github.com/sahat/hackathon-starter). You might want to review the details there.
 
-Thank you for purchasing Ubold :). The following guideline will help you to get started with ubold and its documentation.
+Prerequisite
+---------------
+* Make sure to have installed and running `node` (v10.x) on your system
+* Make sure to have installed and running `mongo` on your system
 
 
-#### Gulp
+Getting Started
+---------------
 
-We've included Gulp file (gulpfile.js) to help you get started with theme and build automation. You'll need to install Node.js and Gulp before using our included gulpfile.js. Note that the detailed instructions are available in `docs/setup.html` too.
+```bash
+# Open up terminal
 
-To install Node visit [https://nodejs.org/download](https://nodejs.org/download/).
+# Change directory
+cd myproject
 
-To install gulp, run the following command:
+# Install NPM dependencies
+npm install
+
+# Then simply start your app
+node app.js
 ```
-$ npm install gulp -g
-```
 
-When you're done, install the rest of the theme's dependencies:
-```
-$ npm install
-```
 
-From here on out, simply run `gulp` from your terminal and you're good to go!
-
-+  `gulp` - recompiles and minifies theme assets into `dist` directory and starts local server serving the theme.
-
-+  `gulp docs` - starts local server serving the documentation.
-
-+  `gulp build` - recompiles and minifies theme assets into `dist` folder.
-
-  
-#### Support
-
-If you experience any problems with the above instruction, or if you think you've found a bug with theme - please don't hesitate to reach out to support@coderthemes.com.
+**Note:** You might want to use [Nodemon](https://github.com/remy/nodemon).
+It watches for any changes in your  node.js app and automatically restarts the
+server. Once installed, instead of `node app.js` use `nodemon app.js`. It will
+save you a lot of time in the long run, because you won't need to manually
+restart the server each time you make a small change in code. To install, run
+`sudo npm install -g nodemon`.
