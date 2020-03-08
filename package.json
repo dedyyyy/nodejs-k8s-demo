@@ -66,6 +66,7 @@
     "devbridge-autocomplete": "^1.4.9",
     "dropify": "^0.2.2",
     "dropzone": "^5.5.1",
+    "express": "^4.17.1",
     "flatpickr": "^4.5.2",
     "flot-charts": "^0.8.3",
     "flot-orderbars": "^1.0.0",
